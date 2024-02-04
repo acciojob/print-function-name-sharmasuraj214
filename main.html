@@ -1,16 +1,13 @@
-<!DOCTYPE html>
+Q5. Print the function name
+//your JS code here. If required.
+function functionName() {
+  alert(arguments.callee.name);
+}
 
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+// Using an explicitly named function
+function accioJob() {
+  alert("accioJob");
+}
+// Example usage
+functionName();  // alert("functionName");
+accioJob();      // alert("accioJob");
